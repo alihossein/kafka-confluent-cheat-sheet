@@ -26,14 +26,14 @@ You must configure the CLI before using
 The available commands are:
 
 
-| Command  | Description |
-|----------|--------------|
-| confluent acl  | Specify an ACL for a service. 
-| confluent config  | View or set connector configuration properties. 
-| confluent current | Print the filesystem path of the data and logs of the services managed by the current Confluent run. If such a path does not exist, it will be created.
-| confluent destroy |  Delete an existing Confluent run.
-| confluent help | Print command information.
-| confluent list | 	List all available services or plugins.
-| confluent load | Load a bundled connector with a predefined name or custom connector.
+| Command            | Description |
+|--------------------|--------------|
+| confluent acl      | Specify an ACL for a service. 
+| confluent config   | View or set connector configuration properties. 
+| confluent current  | Print the filesystem path of the data and logs of the services managed by the current Confluent run. If such a path does not exist, it will be created.
+| confluent destroy  |  Delete an existing Confluent run.
+| confluent help     | Print command information.
+| confluent list     | 	List all available services or plugins.
+| confluent load     | Load a bundled connector with a predefined name or custom connector.
 
   
