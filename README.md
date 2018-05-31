@@ -9,7 +9,6 @@ You must configure the CLI before using
  ``` bash
  $ confluent current # /tmp/confluent.gupKDQKn
  ``` 
- # 
   if you wanted to change this location  you should : 
   
   Create a directory:
@@ -20,4 +19,18 @@ You must configure the CLI before using
   ``` bash
   $ export CONFLUENT_CURRENT=<path-to-confluent>/var
   ```
+  
+   > The `Confluent` CLI is meant for development purposes only and is not suitable for a production environment. The data that are produced are transient and are intended to be temporary. 
+
+asdfsadfsadfasdf
+
+## Available Commands
+The available commands are:
+
+
+| Command  | Description  |
+| confluent acl  | Specify an ACL for a service.  |
+| confluent config  | View or set connector configuration properties.  |
+|   |   |
+
   
