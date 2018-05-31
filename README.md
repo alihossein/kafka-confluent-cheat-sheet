@@ -35,5 +35,10 @@ The available commands are:
 | confluent help     | Print command information.
 | confluent list     | 	List all available services or plugins.
 | confluent load     | Load a bundled connector with a predefined name or custom connector.
+| confluent log      | View a snapshot or tail the log of a service.
+| confluent start    | Start Confluent Platform services.
+| confluent stop     | Stop services.
+| confluent top      | View service resource usage.
+| confluent unload   | Unload a connector.
 
   
